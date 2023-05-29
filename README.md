@@ -40,6 +40,7 @@ social graph**_; hence plain search dos not help, knowledge graph driven based o
         ![recall & precession](recall_precession.png)
         
         NOTE: excessive metadata can have negative affect on search, as articulated by [Zipf’s Law](https://en.wikipedia.org/wiki/Zipf%27s_law)
+
 2. **Smarter data governance**
     With toolset like ontology driven knowledge graph, fueling deeper & clear understanding of the meanings as well as
     relationship of data concepts, _**a semantic data catalog provides an organization a tool to better manage and utilize
