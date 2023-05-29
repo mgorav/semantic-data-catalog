@@ -95,6 +95,13 @@ In 2023, there is a rising number of “vector databases” which are specifical
 - Vespa
 - Pinecon
 
+### Embedding
+An embedding is a relatively low-dimensional space into which you can translate high-dimensional vectors. Embeddings make it easier to do machine learning on large 
+inputs like sparse vectors representing words. Ideally, an embedding captures some of the semantics of the input by placing semantically similar inputs close together
+in the embedding space. An embedding can be learned and reused across models.
+Embeddings can assist us in learning the semantic meaning of a word by studying what other words it often appears next to. 
+Then we can produce a list of embeddings, which can be treated as a task-specific dictionary
+
 ## Model & Embedding
 In this blog, I will be using [OWL2Vec2 - embedding of OWN ontology](https://arxiv.org/abs/2009.14654). There is refernce 
 implementaiton from Oxford univeristy, which takes a catalog of ontologies and build a model that embed ontologies.
