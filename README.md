@@ -37,7 +37,6 @@ social graph**_; hence plain search dos not help, knowledge graph driven based o
     between them, a semantic data catalog provides  accurate and relevant search results. This can be measured using: Recall ,Precision
        ![recall & precession](recall_precession.png)
         
-        NOTE: excessive metadata can have negative affect on search, as articulated by [Zipf Law](https://en.wikipedia.org/wiki/Zipf%27s_law)
 
 2. **Smarter data governance**
     With toolset like ontology driven knowledge graph, fueling deeper & clear understanding of the meanings as well as
@@ -46,6 +45,8 @@ social graph**_; hence plain search dos not help, knowledge graph driven based o
 3. **Increased efficiency and productivity**
    Semantic data catalog makes "search for data" easier, leading towards "searching in data" (lakehouse). it not only
    increase productivity, as well as, efficiency
+
+ NOTE: excessive metadata can have negative affect on search, as articulated by [Zipf Law](https://en.wikipedia.org/wiki/Zipf%27s_law)
 
 ## Semantic Data Catalog Architecture
 1. **Step 1** The starting point is the **_ontology catalog_**, which stores ontology of each of the data assets.
