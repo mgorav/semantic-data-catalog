@@ -37,9 +37,10 @@ social graph**_; hence plain search dos not help, knowledge graph driven based o
     between them, a semantic data catalog provides  accurate and relevant search results. This can be measured using:
         - Recall 
         - Precision
-        ![recall & precession](recall_precession.png)
+       
+       ![recall & precession](recall_precession.png)
         
-        NOTE: excessive metadata can have negative affect on search, as articulated by [Zipf’s Law](https://en.wikipedia.org/wiki/Zipf%27s_law)
+        NOTE: excessive metadata can have negative affect on search, as articulated by [Zipf Law](https://en.wikipedia.org/wiki/Zipf%27s_law)
 
 2. **Smarter data governance**
     With toolset like ontology driven knowledge graph, fueling deeper & clear understanding of the meanings as well as
