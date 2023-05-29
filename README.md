@@ -156,6 +156,14 @@ Following are some of examples for search algorithims:
         - vector compression - e.g. PQ or SCANN.
 
 
+#### Vector Database Summary
+
+- Vector databases use Machine Learning models to calculate and attach Vector embeddings to all data objects
+- Vector embeddings capture the meaning and context of data
+- Vector databases offer super fast queries thanks to ANN algorithms
+- ANN algorithms trade a small amount of accuracy for huge gains in performance
+
+
 ## Model & Embedding
 In this blog, I will be using [OWL2Vec2 - embedding of OWN ontology](https://arxiv.org/abs/2009.14654). There is refernce 
 implementaiton from Oxford univeristy, which takes a catalog of ontologies and build a model that embed ontologies.
