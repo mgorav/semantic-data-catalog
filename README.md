@@ -80,7 +80,11 @@ The example provided following search examples as a demonstration:
 NOTE: There is no limitation, please enter the query of your choice
 
 ```
-query  = 'onion'
+query  = 'margherita'
+# query  = 'mozzarella'
+# query  = 'onion'
+# query = 'spicy'
+# query  = 'onion'
 # query  = 'spicy'
 ```
 Below is the output:
