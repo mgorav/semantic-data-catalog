@@ -111,7 +111,7 @@ of “dog” and “puppy” must sufficiently capture their semantic similarity
 
 ```
 dog = [1.6, -0.3, 7.2, 19.6, 3.1, ..., 20.6]
-puppt = [1.5, -0.4, 7.2, 19.5, 3.2, ..., 20.8]
+puppy = [1.5, -0.4, 7.2, 19.5, 3.2, ..., 20.8]
 ```
 These vectors are genearated by machine learning model. 
 
@@ -166,7 +166,7 @@ Following are some of examples for search algorithims:
 
 ## Model & Embedding
 In this blog, I will be using [OWL2Vec2 - embedding of OWN ontology](https://arxiv.org/abs/2009.14654). There is refernce 
-implementaiton from Oxford univeristy, which takes a catalog of ontologies and build a model that embed ontologies.
+implementaiton from Oxford university, which takes a catalog of ontologies and build a model that embed ontologies.
 
 **NOTE**
 1. The embedding produced is affected by the language model and ontology configurations (so it's recommended to expriment
