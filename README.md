@@ -59,7 +59,7 @@ social graph**_; hence plain search dos not help, knowledge graph driven based o
 ![architecture](architecture.png)
 
 ## Sample Ontology Graph
-   For this blog, I will be use pizza owl from [Protege Stanford](https://protege.stanford.edu/ontologies/pizza/pizza.owl)
+   For this blog, I will be us pizza owl from [Protege Stanford](https://protege.stanford.edu/ontologies/pizza/pizza.owl)
 
 ![Pizza](pizza_ontology.png)
 
@@ -67,7 +67,7 @@ social graph**_; hence plain search dos not help, knowledge graph driven based o
 In this blog, I will be using [Facebooks similarity based search package](https://faiss.ai)
 
 ## Model & embedding
-In this blow, I will be [OWL2Vec2 - embedding of OWN ontology](https://arxiv.org/abs/2009.14654)
+In this blow, I will be using [OWL2Vec2 - embedding of OWN ontology](https://arxiv.org/abs/2009.14654)
 
 **NOTE**
 1. The embedding produced is affected by the language model and ontology configurations (so it's recommended to expriment
