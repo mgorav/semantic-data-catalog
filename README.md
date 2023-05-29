@@ -69,7 +69,7 @@ created, these embedding need to be loaded into vector search engine. It's worth
 or [Weaviate](https://weaviate.io)
 
 ### Vector Database
-llow you to store a representation of any object as a vector (text, images, audio, video, etc. That is, it stores data as high-dimensional vectors,
+Allow you to store a representation of any object as a vector (text, images, audio, video, etc. That is, it stores data as high-dimensional vectors,
 which are mathematical representations of features or attributes. A vector is, essentially, just a list of numbers. The amount of numbers, referred
 to as dimensions, directly correlates to how much data a vector can represent. In our case the vectors we are interested in storing is a representation 
 of the contextual meaning behind each and every word in the ontology.  Each vector has a certain number of dimensions, which can range from tens to 
@@ -87,6 +87,13 @@ distance, hamming distance, jaccard index.
 
 The result of the similarity search and retrieval is usually a ranked list of vectors that have the highest similarity scores with the query vector.
 You can then access the corresponding raw data associated with each vector from the original source or index.
+
+In 2023, there is a rising number of “vector databases” which are specifically built to store and search vector embeddings - some of the more popular ones include:
+- Weaviate
+- Milvus
+- Qdrant
+- Vespa
+- Pinecon
 
 ## Model & Embedding
 In this blog, I will be using [OWL2Vec2 - embedding of OWN ontology](https://arxiv.org/abs/2009.14654). There is refernce 
