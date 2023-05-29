@@ -9,7 +9,7 @@ lacks in understanding meaning and relationships of concepts in the catalogs. Th
 useful search hits on the data assets. With the rise of "Data Mesh", which proposes, data products (composition of data assets) are organized in "domains". 
 This also poses another search challenge in a data catalog. 
 
-So that how can address this? Let's throw, the latest buzzwords - ChatGPT, LLM etc
+So,how can address this? Let's throw, the latest buzzwords - ChatGPT, LLM etc
 
 _No way_ - the need of hour is **_"Semantic Data Catalog"_**
 
