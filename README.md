@@ -165,7 +165,7 @@ Following are some of examples for search algorithims:
 
 
 ## Model & Embedding
-In this blog, I will be using [OWL2Vec2 - embedding of OWN ontology](https://arxiv.org/abs/2009.14654). There is refernce 
+In this blog, I will be using [OWL2Vec2 - embedding of OWL ontology](https://arxiv.org/abs/2009.14654). There is refernce 
 implementaiton from Oxford university, which takes a catalog of ontologies and build a model that embed ontologies.
 
 **NOTE**
