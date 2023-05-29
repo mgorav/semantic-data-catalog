@@ -77,6 +77,8 @@ In this blow, I will be using [OWL2Vec2 - embedding of OWN ontology](https://arx
 
 ## OUTPUT
 The example provided following search examples as a demonstration:
+NOTE: There is no limitation, please enter the query of your choice
+
 ```
 query  = 'onion'
 # query  = 'spicy'
@@ -88,7 +90,7 @@ Below is the output:
 Semantic Data Catalog is the future and provide powerful capabilities to simplify data governance challleges of 
 discoverability and increase efficiencies. Howeer, it is worth articulating challenges which need to be considered before 
 taking it to production:
-1. The Outcome is dependent on the training of ontology model as well as maintaining its accuracy
+1. The outcome is dependent on the training of ontology model as well as maintaining its accuracy
 2. The continuous evaluation of effectiveness of the embeddings and also updating the search indexes (vectors), as 
    the catalog is evolving
 
