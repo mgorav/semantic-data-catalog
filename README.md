@@ -11,7 +11,7 @@ This also poses another search challenge in a data catalog.
 
 So,how can we address this? Let's throw, the latest buzzwords - ChatGPT, LLM etc - potentially they can and will.
 
-_However_ - I do believe, Data Catalog should be **_"Semantic Data Catalog"_**. In this blow, let's explore - **_"Semantic Data Catalog"_**.
+_However_ - I do believe, Data Catalog should be **_"Semantic Data Catalog"_**. In this blog, let's explore - **_"Semantic Data Catalog"_**.
 
 ## Semantic Data Catalog
 
