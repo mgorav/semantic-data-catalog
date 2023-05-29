@@ -14,12 +14,12 @@ from faiss.swigfaiss import IndexFlatIP
 from itertools import chain
 
 
-def parse_camel_plus(string: str) -> List[str]:
+def parse_convert_to_camel_plus(string: str) -> List[str]:
     matches = re.finditer('.+?(?:(?<=[a-z])(?=[A-Z])|(?<=[A-Z])(?=[A-Z][a-z])|$)', string)
     words = [m.group(0) for m in matches]
     return [word.lower() for word in words]
 
-def embed_text(sentence:Union[str,List[str]], model:Word2Vec) -> np.ndarray:
+def text_embedding(sentence:Union[str,List[str]], model:Word2Vec) -> np.ndarray:
     # make sure sentence is a list of words
     if isinstance(sentence, str):
         sentence = sentence.split()
@@ -48,13 +48,13 @@ for onto in ontologies:
     for cls in onto.classes():
         onto_iri2embeds[onto.base_iri].append((cls.iri, model.wv.get_vector(cls.iri)))
         try:
-            cls_name = ' '.join(parse_camel_plus(cls.name))
-            onto_iri2embeds[onto.base_iri].append((cls.iri, embed_text(cls_name, model)))
+            cls_name = ' '.join(parse_convert_to_camel_plus(cls.name))
+            onto_iri2embeds[onto.base_iri].append((cls.iri, text_embedding(cls_name, model)))
         except ValueError:
             pass
 
 print("Vector based indexing done.....")
-def create_index(embeddings: List[Tuple[str,np.ndarray]], model: Word2Vec) -> IndexFlatIP:
+def create_search_index(embeddings: List[Tuple[str,np.ndarray]], model: Word2Vec) -> IndexFlatIP:
     # make 2D array of all embeddings
     embeddings = [embedding[1] for embedding in embeddings]
     embeddings_2d = np.stack(embeddings, axis=0)
@@ -65,16 +65,18 @@ def create_index(embeddings: List[Tuple[str,np.ndarray]], model: Word2Vec) -> In
 print("Creating vector based indexes....")
 name2faiss_index:Dict[str, IndexFlatIP] = dict()
 all_embeddings = list(chain.from_iterable(onto_iri2embeds.values()))
-name2faiss_index['All'] = create_index(all_embeddings, model)
+name2faiss_index['All'] = create_search_index(all_embeddings, model)
 for ontology_iri in onto_iri2embeds:
-    name2faiss_index[ontology_iri] = create_index(onto_iri2embeds[ontology_iri], model)
+    name2faiss_index[ontology_iri] = create_search_index(onto_iri2embeds[ontology_iri], model)
 
 # search over entire catalog
+# query  = 'spicy margherita and onion'
+# query  = 'mozzarella'
 query  = 'onion'
 # query = 'spicy'
 
 print("Querying ",query)
-query_emb = embed_text(query, model).reshape(1,-1)
+query_emb = text_embedding(query, model).reshape(1, -1)
 scores, indexes = name2faiss_index['All'].search(query_emb, 5)
 results = [all_embeddings[ind][0] for ind in indexes[0]]
 for result in results:
