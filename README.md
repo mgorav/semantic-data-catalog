@@ -15,8 +15,8 @@ _No way_ - the need of hour is **_"Semantic Data Catalog"_**
 
 ## Semantic Data Catalog
 
-A semantic search engine is based on _**semantic context**_ of _search queries_ and content to more desirable to understand 
-meaning. Semantic _search engines also uses the relationships between entities for returning search results_. This type
+A semantic search engine is based on _**semantic context**_ of _search queries_ and context is more desirable, to understand 
+the meaning/knowledge. Semantic _search engines also uses the relationships between entities for returning search results_. This type
 of search is based on **_"Knowledge Graph"_**. The Knowledge Graph is a semantic database in which information is 
 structured in such a way that knowledge is created from the information. Here, entities (nodes) are related to each other 
 via edges, provided with attributes and other information and placed in thematic context or ontologies.Entities are the 
