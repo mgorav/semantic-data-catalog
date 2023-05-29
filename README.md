@@ -59,7 +59,7 @@ social graph**_; hence plain search dos not help, knowledge graph driven based o
 ![architecture](architecture.png)
 
 ## Sample Ontology Graph
-   For this blog, I will be us pizza owl from [Protege Stanford](https://protege.stanford.edu/ontologies/pizza/pizza.owl)
+   For this blog, I will be using pizza owl (ontology) from [Protege Stanford](https://protege.stanford.edu/ontologies/pizza/pizza.owl)
 
 ![Pizza](pizza_ontology.png)
 
