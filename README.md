@@ -32,19 +32,24 @@ _However_ - I do believe, Data Catalog should be **_"Semantic Data Catalog"_**. 
 
 ## Semantic Data Catalog
 
+A semantic data catalog is an intelligent catalog/inventory of data assets that automatizes sharing common meanings of data across data silos and provides a means to define 
+hierarchies and relationships featuring semantic reasoning. It serves as a queryable, AI-enabled knowledge encyclopedia of the organization.
+
 A semantic search engine is based on _**semantic context**_ of _search queries_ and context is more desirable, to understand 
 the meaning/knowledge. Semantic _search engines also uses the relationships between entities for returning search results_. This type
 of search is based on **_"Knowledge Graph"_**. The Knowledge Graph is a semantic database in which information is 
 structured in such a way that knowledge is created from the information. Here, entities (nodes) are related to each other 
-via edges, provided with attributes and other information and placed in thematic context or ontologies.Entities are the 
-central organizational element in semantic databases, such as Google’s Knowledge Graph.In addition to the relationships 
+via edges, provided with attributes and other information and placed in semantic context or ontologies.Entities are the 
+central organizational element in semantic databases, such as in Google’s Knowledge Graph.In addition to the relationships 
 between the entities, Google uses data mining to collect attributes and other information about the entities and 
 organizes them around the entities, as shown below:
 
 ![google knowledge graph](google_knowledge_graph.png)
 
-The _**Semantic Data Catalog**_ addresses the challenges mentioned, in the overview section, **_by leveraging, the power of
-ontologies, ontology embeddings and vector search to improve data discovery and management_**. _**A Data Catalog is a
+_**How can we apply semantic search conctext to data catalog to provide semnatic search based on the contextual knowledge of the data.**_
+
+The _**Semantic Data Catalog**_ addresses the challenges solves the challenges of non contextual searches, **_by leveraging, the power of
+ontologies, ontology embeddings and vector search to improve data discovery and management_**. As explained,  _**a Data Catalog is a
 social graph**_; hence plain search dos not help, knowledge graph driven based on ontology addresses this challenge.
 ![Data catalog as social network](data_catalog_social_network.png)
 
