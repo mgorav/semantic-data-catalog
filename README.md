@@ -70,6 +70,14 @@ social graph**_; hence plain search dos not help, knowledge graph driven based o
 
  NOTE: excessive metadata can have negative affect on search, as articulated by [Zipf Law](https://en.wikipedia.org/wiki/Zipf%27s_law)
 
+ ## Ontology Evaluation 
+
+ Following table for ontology evaluation:
+ |  Criteria                    |                    Description              |
+ |------------------------------|---------------------------------------------|
+ |Lawfulness                    |About the syntactical error frequency        |
+
+
 ## Semantic Data Catalog Architecture
 1. **Step 1** The starting point is the **_ontology catalog_**, which stores ontology of each of the data assets.
 2. **Step 2** Train an ontology embedding model on the catalog to generate numerical vectors, or embeddings, that 
