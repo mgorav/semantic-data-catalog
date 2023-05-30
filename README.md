@@ -104,10 +104,13 @@ you can use a vector database to find the most similar or relevant data based on
 
 To perform similarity search and retrieval in a vector database, you need to use a **_query vector_** that represents your desired information or criteria.
 The query vector can be either derived from the same type of data as the stored vectors. Then, you need to use a similarity measure that calculates
-how close or distant two vectors are in the vector space. The similarity measure can be based on various metrics, such as cosine similarity, euclidean 
-distance, hamming distance, jaccard index.
+how close or distant two vectors are in the vector space. The similarity measure can be based on various metrics, such as
+- cosine similarity 
+- euclidean distance 
+- hamming distance 
+- jaccard index
 
-The result of the similarity search and retrieval is usually a ranked list of vectors that have the highest similarity scores with the query vector.
+_The result of the similarity search and retrieval is usually a ranked list of vectors that have the highest similarity scores with the query vector._
 You can then access the corresponding raw data associated with each vector from the original source or index.
 
 In 2023, there is a rising number of “vector databases” which are specifically built to store and search vector embeddings - some of the more popular ones include:
@@ -118,7 +121,7 @@ In 2023, there is a rising number of “vector databases” which are specifical
 - Pinecon
 
 ### Embedding
-An embedding is a relatively low-dimensional space into which you can translate high-dimensional vectors. Embeddings make it easier to do machine learning on large 
+An embedding is a **_relatively low-dimensional space into which you can translate high-dimensional vectors._** Embeddings make it easier to do machine learning on large 
 inputs like sparse vectors representing words. Ideally, an embedding captures some of the semantics of the input by placing semantically similar inputs close together
 in the embedding space. An embedding can be learned and reused across models.
 Embeddings can assist us in learning the semantic meaning of a word by studying what other words it often appears next to. 
@@ -127,7 +130,6 @@ Then we can produce a list of embeddings, which can be treated as a task-specifi
 ### What exactly are vector embeddings?
 
 Vectors are numeric representations of data that capture certain features of the data. For example, in the case of text data, “dog” and “puppy" 
-Vectors are numeric representations of data that capture certain features of the data. For example, in the case of text data, “dog” and “puppy” have 
 similar meaning, even though the words “dog” and “puppy” are very different if compared letter by letter. For semantic search to work effectively, representations 
 of “dog” and “puppy” must sufficiently capture their semantic similarity. This is where vector representations are used, and why their derivation is so important.
 
