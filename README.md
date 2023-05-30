@@ -2,7 +2,7 @@
 
 ## Overview
 Data is a fuel on which an organization depends on its operations/running, in other words, data is foundational to organisational operations. Data catalog are central to managing and utilizing data
-assets. Data catalog provides an ability to search "for data", based on - name of the data assets,
+assets. Data catalog provides an ability to search "for data", based on the name of the data assets,
 its metadata plus related business terms. Hence, data catalog plays a critical role in "data discovery". However, most 
 of the data catalog rely on "string matching" (using framework like Lucene or Elastic search). These type of search,
 lacks in understanding meaning and relationships of _concepts_ in the catalogs. This leads to, missing
@@ -15,6 +15,8 @@ Setting the record straight, data catalog helps in "Searching **_for_** data" an
 
 However, searching for data really facilitates, searching in data. Searching engine like Google, also works in similar. 
 All the search query, first hit Google catalog before finding the exact details. This is all achieved using semantic search.
+Data catalog so central to organization, inability to find data based contextual understanding, directly impacts company 
+operations.
 
 _However_ - I do believe, Data Catalog should be **_"Semantic Data Catalog"_**. In this blog, let's explore—**_"Semantic Data Catalog"_**.
 
