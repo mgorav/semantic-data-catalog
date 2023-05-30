@@ -17,7 +17,7 @@ The ontology can be seen as 5-typle where its components are:
 - **I**ndividuals or Instances and
 - **A**xioms
 
-**_Ontology_** = <C,R,F,I,A>
+**_Ontology = <C,R,F,I,A>_**
 where:
 - Concepts (classes): are the main formalied elements of the domain. Since the logic, the concepts can be described using specific properties which must be statisfied by them
 - Relationships: are links between the concepts for representing the ontology structure (taxonomix or not traxonomic)
