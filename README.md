@@ -10,7 +10,7 @@ useful search hits on the data assets in data catalog. With the rise of _"Data M
 This further adds to the search challenge in a data catalog.
 
 _NOTE:_
-The ontology can be see as 5-typle where its components are:
+The ontology can be seen as 5-typle where its components are:
 - **C**oncepts,
 - **R**elationships,
 - **F**unctions,
