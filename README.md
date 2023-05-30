@@ -9,11 +9,18 @@ lacks in understanding meaning and relationships of _concepts_ in the catalogs. 
 useful search hits on the data assets in data catalog. With the rise of _"Data Mesh"_, which proposes, data products (as _composition of data assets_) are organized in _"domains"_. 
 This further adds to the search challenge in a data catalog.
 
-So,how can we address this? Let's throw, the latest buzzwords - ChatGPT, LLM etc - potentially they can and will.
+So, how can we address this? Let's throw, the latest buzzwords - ChatGPT, LLM etc - potentially they can and will.
 
-_However_ - I do believe, Data Catalog should be **_"Semantic Data Catalog"_**. In this blog, let's explore - **_"Semantic Data Catalog"_**.
+Setting the record straight, data catalog helps in "Searching **_for_** data" and NOT "Searching **_in_** data".
+
+However, searching for data really facilitates, searching in data. Searching engine like Google, also works in similar. 
+All the search query, first hit Google catalog before finding the exact details. This is all achieved using semantic search.
+
+_However_ - I do believe, Data Catalog should be **_"Semantic Data Catalog"_**. In this blog, let's explore—**_"Semantic Data Catalog"_**.
 
 ## Semantic Data Catalog
+
+**_`Semantic Data Catalog = Data Catalog + Semantic Search`_**
 
 A semantic data catalog is an intelligent catalog/inventory of data assets that automatizes sharing common meanings of data across data silos and provides a means to define 
 hierarchies and relationships featuring semantic reasoning. It serves as a queryable, AI-enabled knowledge encyclopedia of the organization.
