@@ -30,7 +30,8 @@ organizes them around the entities, as shown below:
 ![google knowledge graph](google_knowledge_graph.png)
 
 _NOTE:_
-The ontology can be seen as 5-typle where its components are:
+The semantic search capabilities are made possible using **_"Ontology"_**
+The ontology can be seen as 5-tuple where its components are:
 - **C**oncepts,
 - **R**elationships,
 - **F**unctions,
