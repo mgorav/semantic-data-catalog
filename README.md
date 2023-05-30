@@ -160,12 +160,12 @@ For example, vectorizing the two words above might result in:
 Every data object in a dataset gets a vector
 ```
 
-In a nutshell, vector embeddings are an array of numbers, which can be used as coordinates in a high-dimensional space. Although it is hard to imagine coordinates in more than 3-dimensional
+**_In a nutshell, vector embeddings are an array of numbers, which can be used as coordinates in a high-dimensional space._** Although it is hard to imagine coordinates in more than 3-dimensional
 space (x, y, z), we can still use the vectors to compute the distance between vectors, which can be used to indicate similarity between objects. 
 
 There are many different distance metrics, like cosine similarity and Euclidean distance (L2 distance).
 
-In a similar fashion, whenever we run a query (like: "What is the tallest building in Berlin?"), a vector database can also convert it to a "query" vector. The task of a vector database is to 
+In a similar fashion, whenever we run a query (like: "What is the tallest building in London?"), a vector database can also convert it to a "query" vector. The task of a vector database is to 
 identify and retrieve a list of vectors that are closest to the given vector of your query, using a distance metric and a search algorithm.
 
 Following are some of examples for search algorithims:
