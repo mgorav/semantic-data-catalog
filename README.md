@@ -56,12 +56,12 @@ social graph**_; hence plain search dos not help, knowledge graph driven based o
 **_The Semantic Data Catalog_** brings, following benefits: .
 1. **Increase search accuracy and relevance**
     Build ontology based knowledge graph, which helps in understanding the meanings of _concepts_ and the _relationships_ 
-    between them, a semantic data catalog provides  accurate and relevant search results. This can be measured using: Recall ,Precision
+    between them, a semantic data catalog provides  accurate and relevant search results. This can be measured using: _**Recall ,Precision**_
        ![recall & precession](recall_precession.png)
         
 
 2. **Smarter data governance**
-    With toolset like ontology driven knowledge graph, fueling deeper & clear understanding of the meanings as well as
+    With power  of ontology driven knowledge graph, plus fueling deeper & clear understanding of the meanings of data asset graph as well as
     relationship of data concepts, _**a semantic data catalog provides an organization a tool to better manage and utilize
     their data._**
 3. **Increased efficiency and productivity**
