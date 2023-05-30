@@ -73,10 +73,27 @@ social graph**_; hence plain search dos not help, knowledge graph driven based o
  ## Ontology Evaluation 
 
  Following table for ontology evaluation:
- |  Criteria                    |                    Description              |
- |------------------------------|---------------------------------------------|
- |Lawfulness                    |About the syntactical error frequency        |
-
+ |  Criteria                    |                                              Description                                                                  |
+ |------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+ |Lawfulness                    |About the syntactical error frequency                                                                                      |
+ |Richness                      |Quantifies the most important syntactic features are used in the ontolog                                                   |
+ |Adaptability                  |How the ontology responses in future uses                                                                                  |
+ |Clarity                       |To communicate about the meaning of the terms independently of the context                                                 |
+ |Closeness Index               |Measures the closeness or structural resemblance among the concepts                                                        |
+ |Similarity Index              |About the proposition correctness into knowledge structure                                                                 |
+ |Accuracy                      |Measures the representation of knowledge within the ontology in relation to the real world                                 |
+ |Coherence                     |Measure if exist contradictions among the elements of ontology according to logical consistency                            |
+ |Computational Efficiency      |Measures the reasoner performance when processing the ontology                                                             |
+ |Conciseness                   |About the existence of irrelevant information unnecessary and redundancies                                                 |
+ |Modularity                    |Indicates if the ontology was created with an appropriate methodology in order to define if exist reusable components      |
+ |Tangledness                   |Measures the distribution of multiple concepts and if exists intersections into the structure                              |
+ |Connectivity                  |Indicates the most important concepts based on the amount of relationships.                                                |
+ |Consistency                   |Indicates if exists a contradiction among the definitions of the ontological elements                                      |
+ |Completeness                  |About if the content of the ontology is explicit or can be inferred in order to consider it complete                       |
+ |Sensitiveness                 |Measures how a small change in a definition modifies other elements [                                                      |
+ |Standard Coverage             |Identifies elements which are not defined in the ontology                                                                  |
+ |Coupling                      |About the number of external concepts that are referenced or imported                                                      |
+ |Coverage                      |Indicates how well the ontology represents or models the domain                                                            |
 
 ## Semantic Data Catalog Architecture
 1. **Step 1** The starting point is the **_ontology catalog_**, which stores ontology of each of the data assets.
