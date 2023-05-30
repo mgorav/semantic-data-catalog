@@ -165,7 +165,7 @@ space (x, y, z), we can still use the vectors to compute the distance between ve
 
 There are many different distance metrics, like cosine similarity and Euclidean distance (L2 distance).
 
-In a similar fashion, whenever we run a query *__(like: "What is the tallest building in London?")_**, a vector database can also convert it to a _"query" vector_. The task of a vector database is to 
+In a similar fashion, whenever we run a query **_(like: "What is the tallest building in London?")_**, a vector database can also convert it to a _"query" vector_. The task of a vector database is to 
 identify and retrieve a list of vectors that are closest to the given vector of your query, using a distance metric and a search algorithm.
 
 Following are some of examples for search algorithims:
