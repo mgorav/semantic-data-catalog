@@ -62,10 +62,10 @@ social graph**_; hence plain search dos not help, knowledge graph driven based o
 
 2. **Smarter data governance**
     With the power of ontology driven knowledge graph in one hand, clear understanding of the meanings of data asset graph as well as
-    relationship of data concepts on the other hand, _**a semantic data catalog provides an organization a tool to better manage and utilize
+    relationship of data concepts on the other hand, **_a semantic data catalog provides an organization a tool to better manage and utilize
     their data._**
 3. **Increased efficiency and productivity**
-   Semantic data catalog makes **_"search for data"_** easier, there providing meaning context, while **_"searching in data"_** (lakehouse). it not only
+   Semantic data catalog makes **_"search for data"_** easier, there by providing contextual knowledge driven **_"search in data"_** (lakehouse). This not only
    increase productivity, as well as, efficiency
 
  NOTE: excessive metadata can have negative affect on search, as articulated by [Zipf Law](https://en.wikipedia.org/wiki/Zipf%27s_law)
