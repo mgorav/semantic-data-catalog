@@ -72,7 +72,7 @@ social graph**_; hence plain search dos not help, knowledge graph driven based o
 
  ## Ontology Evaluation 
 
- Following table for ontology evaluation:
+ Following table shows different ontology evaluation criteria, which is crucial for successfull implementation of Ontology based Data Catalog:
  |  Criteria                    |                                              Description                                                                  |
  |------------------------------|---------------------------------------------------------------------------------------------------------------------------|
  |Lawfulness                    |About the syntactical error frequency                                                                                      |
