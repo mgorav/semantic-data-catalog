@@ -48,7 +48,7 @@ organizes them around the entities, as shown below:
 
 _**How can we apply semantic search conctext to data catalog to provide semnatic search based on the contextual knowledge of the data.**_
 
-The _**Semantic Data Catalog**_ addresses the challenges solves the challenges of non contextual searches, **_by leveraging, the power of
+The _**Semantic Data Catalog**_ solves the challenges of non contextual searches, **_by leveraging, the power of
 ontologies, ontology embeddings and vector search to improve data discovery and management_**. As explained,  _**a Data Catalog is a
 social graph**_; hence plain search dos not help, knowledge graph driven based on ontology addresses this challenge.
 ![Data catalog as social network](data_catalog_social_network.png)
