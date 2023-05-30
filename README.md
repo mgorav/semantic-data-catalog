@@ -4,10 +4,27 @@
 Data is a fuel on which an organization depends on its operations/running, in other words, data is foundational to organisational operations. Data catalog are central to managing and utilizing data
 assets. Data catalog provides an ability to search "for data", based on - name of the data assets,
 its metadata plus related business terms. Hence, data catalog plays a critical role in "data discovery". However, most 
-of the data catalog rely on "string matching" (using Lucene or Elastic search). These type of search,
-lacks in understanding meaning and relationships of concepts in the catalogs. This leads to, missing
-useful search hits on the data assets. With the rise of "Data Mesh", which proposes, data products (composition of data assets) are organized in "domains". 
-This also poses another search challenge in a data catalog. 
+of the data catalog rely on "string matching" (using framework like Lucene or Elastic search). These type of search,
+lacks in understanding meaning and relationships of _concepts_ in the catalogs. This leads to, missing
+useful search hits on the data assets in data catalog. With the rise of _"Data Mesh"_, which proposes, data products (as _composition of data assets_) are organized in _"domains"_. 
+This further adds to the search challenge in a data catalog.
+
+_NOTE:_
+The ontology can be see as 5-typle where its components are:
+- Concepts,
+- Relationships,
+- Functions,
+- Individuals or Instances and
+- Axioms
+
+Ontology = <C,R,F,I,A>
+where:
+- Concepts (classes): are the main formalied elements of the domain. Since the logic, the concepts can be described using specific properties which must be statisfied by them
+- Relationships: are links between the concepts for representing the ontology structure (taxonomix or not traxonomic)
+- Functions: are elements with the purpose of calculating infomration from the other elements
+- Instances (objects): are the representation about the main objects within domain according to ontology structure
+- Axions: are the restricitons, rules, logic correspondces definitions which must be accomplished in the relationship between the ontology elements. The axioms can be seen as
+  smalest unit of knowledge within an ontology
 
 So,how can we address this? Let's throw, the latest buzzwords - ChatGPT, LLM etc - potentially they can and will.
 
