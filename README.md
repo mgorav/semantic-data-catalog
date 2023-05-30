@@ -12,10 +12,10 @@ This further adds to the search challenge in a data catalog.
 _NOTE:_
 The ontology can be see as 5-typle where its components are:
 - **C**oncepts,
-- _R_elationships,
-- _F_unctions,
-- _I_ndividuals or Instances and
-- _A_xioms
+- **R**elationships,
+- **F**unctions,
+- **I**ndividuals or Instances and
+- **A**xioms
 
 **_Ontology_** = <C,R,F,I,A>
 where:
